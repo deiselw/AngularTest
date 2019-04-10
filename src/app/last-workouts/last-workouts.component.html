@@ -1,0 +1,6 @@
+<div class="last-workouts">
+	<h3>Last Workouts:</h3>
+	<div class="workout" *ngFor="let workout of lastWorkoutsService.lastWorkouts">
+		<span>{{ workout.name }} - {{ workout.kcal }} kCal</span>
+	</div>
+</div>

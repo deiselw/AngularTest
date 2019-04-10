@@ -5,12 +5,16 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { WorkoutsComponent } from './workouts/workouts.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { LastWorkoutsComponent } from './last-workouts/last-workouts.component';
+import { WorkoutTimeComponent } from './workout-time/workout-time.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WorkoutsComponent,
-    DashboardComponent
+    DashboardComponent,
+    LastWorkoutsComponent,
+    WorkoutTimeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,8 @@
-<li *ngFor="let workout of workouts">
+<button (click)="cancel()">Cancel</button>
+<div class="container">
+<div class="workout" *ngFor="let workout of workouts">
 	<a (click)="add(workout)">
-		<span>{{ workout.name }} - {{ workout.kcal }}</span>
+		<span>{{workout.name}} - {{workout.kcal}} kCal</span>
 	</a>
-</li>
+</div>
+</div>

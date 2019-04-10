@@ -29,4 +29,8 @@ export class WorkoutsComponent implements OnInit {
 		this.workoutService.addWorkout(workout);
 		this.location.back();
 	}
+	
+	cancel() {
+		this.location.back();
+	}
 }

@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class CaloriesService {
-	calories: number = 0;
+  calories: number = 0;
 
   constructor() {}
   
