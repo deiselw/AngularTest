@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { WorkoutsComponent } from './workouts/workouts.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LastWorkoutsComponent } from './last-workouts/last-workouts.component';
-import { WorkoutTimeComponent } from './workout-time/workout-time.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +13,6 @@ import { WorkoutTimeComponent } from './workout-time/workout-time.component';
     WorkoutsComponent,
     DashboardComponent,
     LastWorkoutsComponent,
-    WorkoutTimeComponent
   ],
   imports: [
     BrowserModule,
